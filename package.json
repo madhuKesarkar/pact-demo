@@ -1,0 +1,19 @@
+{
+  "name": "pact-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "test:consumer": "jest consumer",
+     "test:provider": "jest provider"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@pact-foundation/pact": "^17.1.4",
+    "axios": "^1.21.0",
+    "jest": "^30.5.2"
+  }
+}
